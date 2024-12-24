@@ -1,0 +1,161 @@
+body{
+    background-color: hsl(216, 12%, 8%);
+}
+
+.conteudo-container{
+    display: grid;
+    place-content: center;
+    min-height: 98vh;
+}
+
+.avaliacao-container{
+    background-color: hsl(213, 19%, 18%);
+    height: 420px;
+    width: 450px;
+    border-radius: 18px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.avaliacao-container .icon{
+    background-color: hsl(214, 19%, 24%);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 15px 15px;
+}
+
+.icon img{
+    width: 20px;
+}
+
+.textos{
+    margin: 30px 0 20px 0;
+}
+
+.textos .titulo{
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.textos .texto{
+    color: hsl(217, 12%, 63%);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.botoes .avaliacoes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.avaliacao button{
+    color: hsl(217, 12%, 63%);
+    font-size: 18px;
+    font-weight: 700;
+    background-color: hsl(214, 19%, 24%);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.avaliacao button:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(213, 19%, 18%);
+}
+
+.avaliacao button:focus{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(213, 19%, 18%);
+}
+
+.botoes .enviar{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(216, 12%, 8%);
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 100%;
+    height: 50px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(213, 19%, 18%);
+}
+
+.agradecimento-container{
+    background-color: hsl(213, 19%, 18%);
+    height: 420px;
+    width: 450px;
+    border-radius: 18px;
+    padding: 30px;
+}
+
+.hidden{
+    display: none;
+}
+
+.agradecimento-container img{
+    width: 250px;
+    margin-left: 20%;
+}
+
+.agradecimento-container .selecao{
+    background-color: hsl(214, 19%, 24%);
+    display: flex;
+    width: 220px;
+    height: 25px;
+    margin: 20px 0 20px 86px;
+    padding-top: 3px;
+    padding-left: 18px;
+    border-radius: 40px;
+}
+
+.selecao p{
+    color: hsl(25, 97%, 53%);
+    font-size: 18px;
+}
+
+.selecao p span{
+    color: hsl(25, 97%, 53%);
+    font-size: 18px;
+}
+
+.agradecimento-container .textos-finais{
+    margin: 0 20px 0 20px;
+}
+
+.textos-finais .titulo-final{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    margin-left: 80px;
+}
+
+.textos-finais .texto-final{
+    color: hsl(217, 12%, 63%);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Frontend Mentor | Interactive rating component</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./src/img/favicon-32x32.png">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+
+    <script src="./src/js/script.js" defer></script>
+</head>
+
+<body>
+    <main class="conteudo-container">
+        <div class="avaliacao-container">
+            <div class="icon">
+                <img src="./src/img/icon-star.png" alt="star">
+            </div>
+
+            <div class="textos">
+                <h1 class="titulo">How did we do?</h1>
+
+                <p class="texto">
+                    Please let us know how we did with your support request. All feedback is appreciated
+                    to help us improve our offering!
+                </p>
+            </div>
+
+            <div class="botoes">
+                <ul class="avaliacoes">
+                    <li class="avaliacao">
+                        <button type="button" class="btn-avaliacao" id="nota-1">1</button>
+                    </li>
+
+                    <li class="avaliacao">
+                        <button type="button" class="btn-avaliacao" id="nota-2">2</button>
+                    </li>
+
+                    <li class="avaliacao">
+                        <button type="button" class="btn-avaliacao" id="nota-3">3</button>
+                    </li>
+
+                    <li class="avaliacao">
+                        <button type="button" class="btn-avaliacao" id="nota-4">4</button>
+                    </li>
+
+                    <li class="avaliacao">
+                        <button type="button" class="btn-avaliacao" id="nota-5">5</button>
+                    </li>
+                </ul>
+
+                <button class="enviar" type="button" id="confirmar">Submit</button>
+            </div>
+        </div>
+
+        <div class="agradecimento-container hidden">
+            <img src="./src/img/illustration-thank-you.png" alt="avalilação">
+
+            <div class="selecao">
+                <p>
+                    You selected out <span id="numAvaliacao"></span> of 5
+                </p>
+            </div>
+
+            <div class="textos-finais">
+                <h1 class="titulo-final">Thank you!</h1>
+
+                <p class="texto-final">
+                    We appreciate you taking the time to give a rating. If you ever need more support,
+                    don’t hesitate to get in touch!
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Sthephay Souza</a>.
+    </div>
+</body>
+
+</html>
